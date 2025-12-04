@@ -17,19 +17,21 @@
             //Console.WriteLine(bir+ "" + on1 + "" + yuz);
 
             //2-masala
-            int a = 4;
-            int b = 3;
-            int c = 1;
-            int d = 5;
+            //int a = 4;
+            //int b = 3;
+            //int c = 2;
+            //int d = 5;
 
-            if(a > c && b > c && d > c && c % 2 == 0)
-            {
-                Console.WriteLine(true);
-            }
-            else
-            {
-                Console.WriteLine(false);
-            }
+            //if(a > c && b > c && d > c && c % 2 == 0)
+            //{
+            //    Console.WriteLine(true);
+            //}
+            //else
+            //{
+            //    Console.WriteLine(false);
+            //}
+
+
         }
     }
 }
