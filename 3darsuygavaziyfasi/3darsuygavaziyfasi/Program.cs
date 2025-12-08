@@ -319,23 +319,56 @@
             //}
 
             //23-misol
-            int n = 5;
+            //int n = 5;
 
-            for (int i = 1; i <= n; i++)
-            {
-                string qator = "";
-                for (int j = 1; j <= i; j++)
-                {
-                    if(i == j)
-                    {
-                        qator = qator + "*";
-                    } else
-                    {
-                        qator = qator + " ";
-                    }
-                }
-                Console.WriteLine(qator);
-            }
+            //for (int i = 1; i <= n; i++)
+            //{
+            //    string qator = "";
+            //    for (int j = 1; j <= i; j++)
+            //    {
+            //        if(i == j)
+            //        {
+            //            qator = qator + "*";
+            //        } else
+            //        {
+            //            qator = qator + " ";
+            //        }
+            //    }
+            //    Console.WriteLine(qator);
+            //}
+
+            //24-misol
+
+            //int sum = 0;
+
+            //while(true)
+            //{
+            //    Console.Write("son kiriting:");
+            //    int son = int.Parse(Console.ReadLine());
+
+            //    if(son != 0)
+            //    {
+            //        sum++;
+            //    } else if(son == 0)
+            //    {
+            //        break;
+            //    }
+            //}
+            //Console.WriteLine(sum);
+            //1-misol
+            //string text = "Foundation";
+
+            //var natija = text.Substring(7);
+
+            //Console.WriteLine(natija);
+
+            //2-misol
+            string text = "Foundation";
+
+            var natija = text.Substring(2, 6);
+            Console.WriteLine(natija);
+
+
 
 
         }
