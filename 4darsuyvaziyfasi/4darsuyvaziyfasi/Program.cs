@@ -12,7 +12,7 @@
         //static string natija (string text)
         //{
         //    var natija = text.Replace("x", "y" );
-        //    var natija2 = text.Replace("y", "z");
+        //    var natija2 = natija.Replace("y", "z"); 
         //    return natija  ;
 
         //}
@@ -294,29 +294,7 @@
         //    return newtext;
         //}
 
-        //22-misol
-        static bool tekshir(string text)
-        {
-            var cat = "cat";
-            var dog = "dog";
-
-            int cat1 = 0;
-            int dog1 = 0;
-
-            for (int i = 0; i < text.Length; i++)
-            {
-                var yig = string.Empty;
-                if (yig == cat)
-                {
-                    cat1++;
-                }
-                else if (yig == dog)
-                {
-                    dog1++;
-                }
-            }
-            return cat1 == dog1;
-        }
+    
 
 
 
@@ -324,8 +302,7 @@
 
         static void Main(string[] args)
         {
-            var javob = tekshir("catcatdog");
-            Console.WriteLine(javob);
+
 
 
 
@@ -353,6 +330,18 @@
             //}
 
             //2-misol
+
+            Console.Write("List lengthni kiriting : ");
+            var n = int.Parse(Console.ReadLine());
+
+            List<int> ints = new List<int>();
+
+            for (int i = 0; i < n; i++)
+            {
+                Console.Write("List elementlarini kiriting :");
+                var num = int.Parse(Console.ReadLine());
+                ints.Add(num);
+            }
 
 
 
