@@ -279,10 +279,128 @@
             //    }
             //}
 
+            //21-misol
+
+            //List<int> number = new List<int>() { 1, 2, 3, 4, 5, 6, 7};
+
+            //var sum = 0;
+
+
+            //for (int i = 0; i < number.Count() - 1; i++)
+            //{
+
+            //    if (number[i] < number[i+ 1])
+            //    {
+            //        ++sum;
+            //    }
+
+            //}
+
+            //if(sum == number.Count() - 1 )
+            //{
+            //    Console.WriteLine(true);
+            //}else
+            //{
+            //    Console.WriteLine(false); 
+            //}
+
+            //22-misol
+
+            //List<int> number = new List<int>() { 9, 8, 7, };
+
+            //var sum = 0;
+
+
+            //for (int i = 0; i < number.Count() - 1; i++)
+            //{
+
+            //    if (number[i] > number[i + 1])
+            //    {
+            //        ++sum;
+            //    }
+
+            //}
+
+            //if (sum == number.Count() - 1)
+            //{
+            //    Console.WriteLine(true);
+            //}
+            //else
+            //{
+            //    Console.WriteLine(false);
+            //}
+
+            //25-misol
+            //List<int> nums = new List<int>() { 1, 2, 3, 4, 5, 6,};
+
+            //var num1 = 0;
+            //var num2 = 0;
+
+            //for(int i = 0; i < nums.Count() -1; i++)
+            //{
+            //    if(num1 + num2 < nums[i] + nums[i+1])
+            //    {
+            //        num1 = nums[i];
+            //        num2 = nums[i+1];
+            //    }
+            //}
+            //Console.WriteLine($"{num1} {num2}");
+
+            //26 - misol
+
+            //List<int> nums = new List<int>() { 1, 2, 3, 4, 5};
+
+            //var sum = 0;
+
+            //for(int i = 0; i < nums.Count - 1; i++)
+            //{
+            //    if (nums[i] < nums[i+1])
+            //    {
+            //        sum++;
+            //    }
+            //}
+            //Console.WriteLine(sum);
+
+            //27 - misol
+
+            //List<int> list1 = new List<int>() { 1, 2, 3, 4, 5 };
+            //List<int> list2 = new List<int>() { 2, 2, 3, 4, 5 };
+
+            //List<int> list3 = new List<int>();
+
+            //var natija = 1;
+
+            //for(int i = 0; i < list1.Count; i++)
+            //{
+            //    natija = list1[i] * list2[i];
+
+            //    Console.Write($"{natija}, ");
+            //}
+
+            //28-misol
+
+            //List<string> texts = new List<string>() { "$salom", "hello", "eat", "$play" };
+
+            //var sum = 0;
+
+            //for(int i = 0; i < texts.Count(); i++)
+            //{
+            //    if (texts[i][0] == '$')
+            //    {
+            //        sum++;
+            //    }
+            //}
+            //Console.WriteLine(sum);
+            
 
 
 
 
-            }
+
+
+
+
+
         }
     }
+}
